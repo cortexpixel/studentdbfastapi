@@ -15,6 +15,7 @@ dist/
 *.log
 *.sqlite3
 
+
 # VS Code
 .vscode/
 
@@ -27,3 +28,22 @@ dist/
 # Environment
 .env
 .ENV
+venv
+venv/pyvenv.cfg
+venv/bin/activate
+venv/bin/activate.csh
+venv/bin/activate.fish
+venv/bin/Activate.ps1
+venv/bin/fastapi
+venv/bin/pip
+venv/bin/pip3
+venv/bin/uvicorn
+venv/pyvenv.cfg
+venv/pyvenv.cfg
+venv/bin/activate
+venv/bin/activate.csh
+venv/bin/activate.fish
+venv/bin/Activate.ps1
+venv/bin/fastapi
+venv/pyvenv.cfg
+venv/pyvenv.cfg
