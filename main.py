@@ -1,4 +1,3 @@
-import os
 from contextlib import asynccontextmanager
 from datetime import date
 from typing import List
@@ -37,7 +36,7 @@ async def lifespan(app: FastAPI):
 
     global engine, SessionLocal
 
-    DATABASE_URL = os.getenv("DATABASE_URL")
+    DATABASE_URL = "postgresql://cortexpixel:Cortexpixel_1990@35.238.8.214:5432/test-studentdb"
 
     if not DATABASE_URL:
         raise RuntimeError("DATABASE_URL environment variable is not set")
