@@ -36,7 +36,7 @@ async def lifespan(app: FastAPI):
 
     global engine, SessionLocal
 
-    DATABASE_URL = "postgresql://cortexpixel:Cortexpixel_1990@35.238.8.214:5432/test-studentdb"
+    DATABASE_URL = "postgresql+psycopg2://cortexpixel:Cortexpixel_1990@35.238.8.214:5432/test-studentdb"
 
     if not DATABASE_URL:
         raise RuntimeError("DATABASE_URL environment variable is not set")
